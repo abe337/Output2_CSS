@@ -30,20 +30,20 @@ body {
   .letit {
     width: 200px;
     height: auto;
-    margin-top: 10px;
+    margin-right: 450px;
     
   }
 
   .banana {
     height: auto;
     width: 200px;
-    float:right
+    margin-left: 450px;
     
   }
   .clot {
     width: 200px;
     height: auto;
-    margin-top: 10px;
+    margin-right: 450px;
     
   }
 
