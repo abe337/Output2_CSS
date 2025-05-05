@@ -43,16 +43,9 @@ body {
   .clot {
     width: 200px;
     height: auto;
+    margin-top: 10px;
     
   }
-
-.first, .third {
-    margin-left: 450px;
-}
-
-.sec {
-    margin-right: 450px;
-}
 
 .vtext 
 { 
