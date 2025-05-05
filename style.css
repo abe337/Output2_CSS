@@ -47,6 +47,14 @@ body {
     
   }
 
+.first .third {
+    margin-left: 450px;
+}
+
+.sec {
+    margin-right: 450px;
+}
+
 .vtext 
 { 
     font-size: 3em;
