@@ -1,7 +1,7 @@
 body {
     background-color: bisque;
   }
-  
+
   .bgg {
     width: 100%;
     height: 400;
@@ -23,7 +23,7 @@ body {
 .headings {
     font-size: 3em;
     color: #333;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
   .letit {
@@ -57,17 +57,18 @@ body {
 .vtextt 
 { 
 
-    display: block;
-    max-width: 600px;
-    margin-left: 400px;
-    color: #555; 
-    font-size: 1.1em;
-    line-height: 1.8;
-    text-align: center;
+  position: absolute;
+  left: 400px;
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 400px;
     
 }
 .bananas
 { 
+  
     color: #ffb347;
     font-size: 2em;
     margin-left: 1200px;
@@ -75,13 +76,13 @@ body {
 }
 .bananass
 { 
-    display: block;
-    max-width: 600px;
-    margin-left: 1000px;
-    color: #555;
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align: center;
+  position: absolute;
+  right: 350px;
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 400px;
     
 }
 
@@ -95,13 +96,13 @@ body {
 }
 .cloots
 { 
-    display: block;
-    max-width: 600px;
-    margin-left: 400px;
-    color: #555; 
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align: center;
+  position: absolute;
+  left: 400px;
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.2;
+  text-align: center;
+  max-width: 400px;
 }
 
 .contact-me {
