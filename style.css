@@ -11,13 +11,60 @@ body {
     opacity: 0.2;
   }
 
+  .quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #e75480;
+  }
+
+  .q {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  .a {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.wah {
+  position: relative;
+  text-align: center;
+}
+.one{ 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.two{ 
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
 .dp {
     width: 150px;
     height: 150px;
     margin: 30px auto 10px;
     display: block;
     border-radius: 50%;
-    border: 5px solid #ff69b4;
+    border: 5px solid #f4f7f5;
   }
 
 .headings {
@@ -26,86 +73,105 @@ body {
     margin-top: 5px;
 }
 
-  .letit {
-    width: 200px;
-    height: auto;
-    margin-left: 500px;
-    
-  }
-
-  .banana {
-    display: block;
-  margin-left: auto;
-  margin-right: 450;
-  width: 200;
-    
-    
-  }
-  .clot {
-    width: 200px;
-    height: auto;
-    margin-left: 500px;
-    
-  }
-
-.vtext 
-{ 
-    font-size: 2em;
-    color: #e75480;
-    margin-left: 550px;
-    
-}
-.vtextt 
-{ 
-
-  position: absolute;
-  left: 400px;
-  color: #555;
-  font-size: 1.1em;
-  line-height: 1.6;
-  text-align: center;
-  max-width: 400px;
-    
-}
-.bananas
-{ 
+.lepitit-cos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  color: #e75480;
   
-    color: #ffb347;
-    font-size: 2em;
-    margin-left: auto;
-    margin-right: 400;
-    width: 200;
-    
 }
-.bananass
-{ 
-  position: absolute;
-  right: 350px;
+
+.lepitit-text {
+  margin-left: 30px;
+  max-width: 400px;
+  
+}
+
+.vtext {
+  font-size: 2.5em;
+  color: #e75480;
+  margin-left: 3px;
+}
+
+
+.letit {  
+  width: 200px;
+  height: auto;
+  margin-left: 0;
+  border-radius: 50%;
+  border: 5px solid #e75480;
+}
+
+.banana-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  gap: 30px;
+}
+
+.banana-text {
+  max-width: 400px;
+  text-align: right;
+}
+
+.bananas {
+  font-size: 2em;
+  color: #ffb347;
+  margin: 0;
+}
+
+.bananass {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.banana {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #ffb347;
+}
+
+.CLOT-cos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  color: #5488e7;
+}
+
+.clotz-text {
+  margin-left: 30px;
+  max-width: 400px;
+}
+
+.cloots {
+  position: static;
+  text-align: left;
   color: #555;
   font-size: 1.1em;
   line-height: 1.6;
-  text-align: center;
-  max-width: 400px;
-    
 }
 
-.clotss
-{ 
-    font-size: 2em;
-    color: #7b68ee; 
-    font-weight: bold;
-    margin-left: 550px;
-    
+.clotss {
+  font-size: 2.5em;
+  color: #5d8be0;
+  margin-left: 3px;
 }
-.cloots
-{ 
-  position: absolute;
-  left: 400px;
-  color: #555;
-  font-size: 1.1em;
-  line-height: 1.2;
-  text-align: center;
-  max-width: 400px;
+
+.clot {  
+  width: 200px;
+  height: auto;
+  margin-left: 0;
+  border-radius: 50%;
+  border: 5px solid #5d8be0;
 }
 
 .contact-me {
@@ -145,6 +211,8 @@ body {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+ 
 
  
 
