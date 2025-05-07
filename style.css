@@ -34,9 +34,10 @@ body {
   }
 
   .banana {
-    height: auto;
-    width: 200px;
-    margin-left: 1200px;
+    display: block;
+  margin-left: auto;
+  margin-right: 450;
+  width: 200;
     
     
   }
@@ -71,7 +72,9 @@ body {
   
     color: #ffb347;
     font-size: 2em;
-    margin-left: 1200px;
+    margin-left: auto;
+    margin-right: 400;
+    width: 200;
     
 }
 .bananass
@@ -142,5 +145,7 @@ body {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+ 
 
  
